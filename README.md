@@ -8,8 +8,10 @@
 
 ## Установка и запуск
 1. Клонируйте репозиторий:
-git clone <git@github.com:astropasha/predictive-maintenance.git>
+```
+git clone git@github.com:astropasha/predictive-maintenance.git  
 cd вкр
+```
 2. Создайте виртуальное окружение и установите зависимости:
 python -m venv myenv source myenv/bin/activate
 # Для Windows: myenv\Scripts\activate pip install -r requirements.txt
