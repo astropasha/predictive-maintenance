@@ -11,7 +11,7 @@
 ```
 git clone https://github.com/astropasha/predictive-maintenance.git  
 ```
-2. Создайте виртуальное окружение и установите зависимости:
+2. Создайте виртуальное окружение:
 ```
 python -m venv venv
 
