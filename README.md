@@ -9,15 +9,22 @@
 ## Установка и запуск
 1. Клонируйте репозиторий:
 ```
-git clone git@github.com:astropasha/predictive-maintenance.git  
-cd вкр
+git clone https://github.com/astropasha/predictive-maintenance.git  
 ```
 2. Создайте виртуальное окружение и установите зависимости:
-python -m venv myenv source myenv/bin/activate
-# Для Windows: myenv\Scripts\activate pip install -r requirements.txt
-3. Запустите приложение:
-streamlit run app.py
-4. Откройте `http://localhost:8501` в браузере.
+```
+python -m venv venv source venv/bin/activate
+```
+Для Windows:
+``` venv\Scripts\activate
+```
+3. Установите все необходимые библеотеки:
+``` pip install -r requirements.txt
+```
+4. Запустите приложение:
+```streamlit run app.py
+```
+5. Откройте `http://localhost:8501` в браузере.
 
 ## Структура репозитория
 - `app.py`: Основной файл приложения.
