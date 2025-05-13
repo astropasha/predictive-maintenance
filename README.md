@@ -10,6 +10,9 @@
 1. Клонируйте репозиторий:
 ```
 git clone https://github.com/astropasha/predictive-maintenance.git  
+
+cd ~/predective-maintence
+
 ```
 2. Создайте виртуальное окружение:
 ```
@@ -19,7 +22,7 @@ source venv/bin/activate
 ```
 Для Windows:
 ```
- venv\Scripts\activate
+venv\Scripts\activate
 ```
 3. Установите все необходимые библеотеки:
 ```
