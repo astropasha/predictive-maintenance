@@ -11,7 +11,7 @@
 ```
 git clone https://github.com/astropasha/predictive-maintenance.git  
 
-cd ~/predective-maintence
+cd ~/predictive-maintenance
 
 ```
 2. Создайте виртуальное окружение:
